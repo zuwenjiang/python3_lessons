@@ -34,4 +34,5 @@ print (response.read())
 url2 = 'http://localhost:8000/polls/date'
 response2 = opener.open(url2)
 print (response2.code)
+#test
 print (response2.read())
